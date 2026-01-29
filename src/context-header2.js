@@ -1,14 +1,14 @@
 import React from "react";
 import {userContext} from "./context"
 
-export default class Header extends React.Component{
+export default class Header2 extends React.Component{
     static contextType = userContext
 
     render(){
         let [user, setUser] = this.context
 
         const headerStyle = {
-            backgroundColor:'#dddddd',
+            backgroundColor:'#a9bdff',
             padding:'10px',
             marginTop:'10px',
             textAlign:'center'
